@@ -1,0 +1,18 @@
+{
+	"name": "ping-coming-soon-page",
+	"private": "true",
+	"version": "1.0.0",
+	"description": "![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)",
+	"main": "index.js",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"vite": "^3.2.2"
+	}
+}
