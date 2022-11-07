@@ -151,3 +151,15 @@ footer ul li a {
 .transparent-border {
 	border: 1px solid var(--transparent-blue);
 }
+
+.font-weight-bold {
+	font-weight: 700;
+}
+
+.font-weight-light {
+	font-weight: 300;
+}
+
+.color-grey {
+	color: var(--gray);
+}
