@@ -51,24 +51,24 @@ header {
 	text-align: center;
 }
 
-h1 {
+.logo {
 	max-width: 25%;
 	margin: 0 auto;
 }
 /* End logo */
 
 /* Copy */
-article {
+.copy {
 	text-align: center;
 	margin-block-end: 7rem;
 }
 
-h2 {
+.copy-title {
 	font-size: 1.5rem;
 	font-weight: 300;
 }
 
-article p {
+.copy-text {
 	font-size: 1rem;
 	margin-block-end: 3rem;
 }
@@ -128,6 +128,13 @@ footer ul li {
 footer ul li a {
 	color: var(--blue);
 }
+
+/* Copyright text */
+.copyright-text {
+	color: var(--gray);
+}
+/* End copyright text */
+
 /* Attribution */
 .attribution {
 	font-size: 11px;
