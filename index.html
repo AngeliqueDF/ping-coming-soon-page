@@ -32,7 +32,7 @@
 	</head>
 	<body>
 		<header>
-			<h1>
+			<h1 class="logo">
 				<a href="#">
 					<img src="./src/images/logo.svg" alt="Ping" />
 				</a>
@@ -40,19 +40,22 @@
 		</header>
 
 		<main>
-			<article>
-				<h2>We are launching soon!</h2>
-				<p>Subscribe and get notified</p>
+			<article class="copy">
+				<h2 class="copy-title">
+					<span class="font-weight-light color-grey">We are launching</span>
+					<span class="font-weight-bold">soon!</span>
+				</h2>
+				<p class="copy-text">Subscribe and get notified</p>
 
-				<form action="">
+				<form class="newsletter-form" action="">
 					<input
 						type="text"
 						name=""
 						id=""
 						placeholder="Your email address"
-						class="transparent-border"
+						class="email-input transparent-border"
 					/>
-					<input type="submit" value="Notify Me" />
+					<input class="submit-input" type="submit" value="Notify Me" />
 				</form>
 
 				<img src="./src/images/illustration-dashboard.png" alt="" />
@@ -60,7 +63,7 @@
 		</main>
 
 		<footer>
-			<ul>
+			<ul class="social-links">
 				<li class="transparent-border">
 					<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
 				</li>
@@ -72,7 +75,9 @@
 				</li>
 			</ul>
 
-			<small>&copy; Copyright Ping. All rights reserved.</small>
+			<small class="copyright-text"
+				>&copy; Copyright Ping. All rights reserved.</small
+			>
 
 			<p class="attribution">
 				Challenge by
