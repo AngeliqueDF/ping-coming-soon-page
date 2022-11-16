@@ -75,7 +75,7 @@ header {
 /* End copy */
 
 /* Form */
-form {
+.newsletter-form {
 	display: flex;
 	flex-direction: column;
 	row-gap: 1rem;
@@ -83,17 +83,17 @@ form {
 	margin-block-end: 4rem;
 }
 
-input {
+.newsletter-form input {
 	padding: 1rem;
 	border: 1px solid var(--blue);
 	border-radius: 3rem;
 }
 
-input[type="text"]::placeholder {
+.email-input::placeholder {
 	color: var(--blue);
 }
 
-input[type="submit"] {
+.submit-input {
 	background-color: var(--blue);
 	color: white;
 }
