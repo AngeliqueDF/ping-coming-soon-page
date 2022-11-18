@@ -196,6 +196,21 @@ footer {
 	}
 }
 
+/* HOVER COMPATIBLE DEVICES */
+@media (any-hover: hover) {
+	.submit-input:hover {
+		opacity: 0.9;
+		cursor: pointer;
+	}
+	.social-links li:hover a {
+		color: white;
+	}
+	.social-links li:hover {
+		cursor: pointer;
+		background-color: var(--blue);
+	}
+}
+
 /* UTILITY  */
 .transparent-border {
 	border: 1px solid var(--transparent-blue);
