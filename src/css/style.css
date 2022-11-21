@@ -210,6 +210,21 @@ footer {
 		background-color: var(--blue);
 	}
 }
+/* END HOVER COMPATIBLE DEVICES */
+
+/* TOUCHSCREENS */
+@media (hover: none) {
+	.submit-input:active {
+		opacity: 0.9;
+	}
+	.social-links li:active a {
+		color: white;
+	}
+	.social-links li:active {
+		background-color: var(--blue);
+	}
+}
+/* END TOUCHSCREENS */
 
 /* UTILITY  */
 .transparent-border {
