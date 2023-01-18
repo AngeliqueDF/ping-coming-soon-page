@@ -83,7 +83,8 @@ header {
 	margin-block-end: 4rem;
 }
 
-.newsletter-form input {
+.email-input,
+.submit-input {
 	padding: 1rem;
 	border: 1px solid var(--blue);
 	border-radius: 3rem;
@@ -149,13 +150,15 @@ footer {
 /* End attribution */
 /* End footer */
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
 	header,
 	main {
-		max-width: 40%;
+		max-width: 50%;
 		margin: 0 auto;
 	}
+}
 
+@media screen and (min-width: 1200px) {
 	.copy {
 		margin-block-end: 3rem;
 	}
@@ -175,16 +178,14 @@ footer {
 		column-gap: 1rem;
 	}
 
-	.newsletter-form input {
-		padding: 1.2rem;
-	}
-
 	.email-input {
+		padding: 1.2rem 1.7rem;
 		width: 60%;
 	}
 
 	.submit-input {
 		width: 30%;
+		padding: 1.2rem;
 	}
 
 	.social-links {
