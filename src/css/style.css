@@ -4,7 +4,7 @@
 	/* Primary */
 	--blue: hsl(223, 87%, 63%);
 
-	--transparent-blue: hsl(223, 87%, 63%, 50%);
+	--transparent-blue: rgba(79, 125, 243, 0.19);
 
 	/* Secondary */
 	--pale-blue: hsl(223, 100%, 88%);
@@ -118,8 +118,8 @@ footer {
 	justify-content: space-between;
 }
 
-.social-links li {
-	border: 1px solid var(--blue);
+.single-social-link {
+	border: 1px solid var(--transparent-blue);
 	padding: 1rem;
 	width: 1rem;
 	height: 1rem;
@@ -128,7 +128,8 @@ footer {
 	align-content: center;
 }
 
-.social-links li a {
+.single-social-link a {
+	margin: 0 auto;
 	color: var(--blue);
 }
 
@@ -192,7 +193,7 @@ footer {
 		width: 12%;
 	}
 
-	.social-links li {
+	.single-social-link {
 		padding: 0.7rem;
 	}
 }
@@ -203,10 +204,10 @@ footer {
 		opacity: 0.9;
 		cursor: pointer;
 	}
-	.social-links li:hover a {
+	.single-social-link:hover a {
 		color: white;
 	}
-	.social-links li:hover {
+	.single-social-link:hover {
 		cursor: pointer;
 		background-color: var(--blue);
 	}
@@ -218,20 +219,16 @@ footer {
 	.submit-input:active {
 		opacity: 0.9;
 	}
-	.social-links li:active a {
+	.single-social-link:active a {
 		color: white;
 	}
-	.social-links li:active {
+	.single-social-link:active {
 		background-color: var(--blue);
 	}
 }
 /* END TOUCHSCREENS */
 
 /* UTILITY  */
-.transparent-border {
-	border: 1px solid var(--transparent-blue);
-}
-
 .font-weight-bold {
 	font-weight: 700;
 }
